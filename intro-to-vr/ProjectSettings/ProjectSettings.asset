@@ -162,6 +162,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.introtovr
+    Standalone: com.DefaultCompany.intro-to-vr
   buildNumber:
     Standalone: 0
     VisionOS: 0
