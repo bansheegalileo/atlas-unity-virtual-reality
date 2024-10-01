@@ -7,6 +7,11 @@ public class VideoPlayerControls : MonoBehaviour
     public float playbackSpeed = 1.0f; // Default playback speed
     private bool isPaused = false;
 
+    void Start()
+    {    
+        videoPlayer.Play();
+        isPaused = false;
+    }
     void Update()
     {
         // Variable playback speed
